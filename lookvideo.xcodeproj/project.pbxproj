@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9564718F2250B6C50061E1C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564718E2250B6C50061E1C1 /* AppDelegate.m */; };
+		956471922250B6C50061E1C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956471912250B6C50061E1C1 /* ViewController.m */; };
+		956471942250B6C50061E1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956471932250B6C50061E1C1 /* Assets.xcassets */; };
+		956471972250B6C50061E1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956471952250B6C50061E1C1 /* Main.storyboard */; };
+		9564719A2250B6C50061E1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956471992250B6C50061E1C1 /* main.m */; };
+		956471A52250B6C60061E1C1 /* lookvideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956471A42250B6C60061E1C1 /* lookvideoTests.m */; };
+		956471B02250B6C60061E1C1 /* lookvideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 956471AF2250B6C60061E1C1 /* lookvideoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		956471A12250B6C60061E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956471822250B6C50061E1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956471892250B6C50061E1C1;
+			remoteInfo = lookvideo;
+		};
+		956471AC2250B6C60061E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 956471822250B6C50061E1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 956471892250B6C50061E1C1;
+			remoteInfo = lookvideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9564718A2250B6C50061E1C1 /* lookvideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lookvideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9564718D2250B6C50061E1C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9564718E2250B6C50061E1C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		956471902250B6C50061E1C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		956471912250B6C50061E1C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		956471932250B6C50061E1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		956471962250B6C50061E1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		956471982250B6C50061E1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956471992250B6C50061E1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9564719B2250B6C50061E1C1 /* lookvideo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lookvideo.entitlements; sourceTree = "<group>"; };
+		956471A02250B6C60061E1C1 /* lookvideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lookvideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		956471A42250B6C60061E1C1 /* lookvideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lookvideoTests.m; sourceTree = "<group>"; };
+		956471A62250B6C60061E1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956471AB2250B6C60061E1C1 /* lookvideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lookvideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		956471AF2250B6C60061E1C1 /* lookvideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lookvideoUITests.m; sourceTree = "<group>"; };
+		956471B12250B6C60061E1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956471872250B6C50061E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564719D2250B6C60061E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956471A82250B6C60061E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956471812250B6C50061E1C1 = {
+			isa = PBXGroup;
+			children = (
+				9564718C2250B6C50061E1C1 /* lookvideo */,
+				956471A32250B6C60061E1C1 /* lookvideoTests */,
+				956471AE2250B6C60061E1C1 /* lookvideoUITests */,
+				9564718B2250B6C50061E1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9564718B2250B6C50061E1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9564718A2250B6C50061E1C1 /* lookvideo.app */,
+				956471A02250B6C60061E1C1 /* lookvideoTests.xctest */,
+				956471AB2250B6C60061E1C1 /* lookvideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9564718C2250B6C50061E1C1 /* lookvideo */ = {
+			isa = PBXGroup;
+			children = (
+				9564718D2250B6C50061E1C1 /* AppDelegate.h */,
+				9564718E2250B6C50061E1C1 /* AppDelegate.m */,
+				956471902250B6C50061E1C1 /* ViewController.h */,
+				956471912250B6C50061E1C1 /* ViewController.m */,
+				956471932250B6C50061E1C1 /* Assets.xcassets */,
+				956471952250B6C50061E1C1 /* Main.storyboard */,
+				956471982250B6C50061E1C1 /* Info.plist */,
+				956471992250B6C50061E1C1 /* main.m */,
+				9564719B2250B6C50061E1C1 /* lookvideo.entitlements */,
+			);
+			path = lookvideo;
+			sourceTree = "<group>";
+		};
+		956471A32250B6C60061E1C1 /* lookvideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				956471A42250B6C60061E1C1 /* lookvideoTests.m */,
+				956471A62250B6C60061E1C1 /* Info.plist */,
+			);
+			path = lookvideoTests;
+			sourceTree = "<group>";
+		};
+		956471AE2250B6C60061E1C1 /* lookvideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				956471AF2250B6C60061E1C1 /* lookvideoUITests.m */,
+				956471B12250B6C60061E1C1 /* Info.plist */,
+			);
+			path = lookvideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956471892250B6C50061E1C1 /* lookvideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956471B42250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideo" */;
+			buildPhases = (
+				956471862250B6C50061E1C1 /* Sources */,
+				956471872250B6C50061E1C1 /* Frameworks */,
+				956471882250B6C50061E1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lookvideo;
+			productName = lookvideo;
+			productReference = 9564718A2250B6C50061E1C1 /* lookvideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9564719F2250B6C60061E1C1 /* lookvideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956471B72250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideoTests" */;
+			buildPhases = (
+				9564719C2250B6C60061E1C1 /* Sources */,
+				9564719D2250B6C60061E1C1 /* Frameworks */,
+				9564719E2250B6C60061E1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956471A22250B6C60061E1C1 /* PBXTargetDependency */,
+			);
+			name = lookvideoTests;
+			productName = lookvideoTests;
+			productReference = 956471A02250B6C60061E1C1 /* lookvideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		956471AA2250B6C60061E1C1 /* lookvideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956471BA2250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideoUITests" */;
+			buildPhases = (
+				956471A72250B6C60061E1C1 /* Sources */,
+				956471A82250B6C60061E1C1 /* Frameworks */,
+				956471A92250B6C60061E1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956471AD2250B6C60061E1C1 /* PBXTargetDependency */,
+			);
+			name = lookvideoUITests;
+			productName = lookvideoUITests;
+			productReference = 956471AB2250B6C60061E1C1 /* lookvideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956471822250B6C50061E1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李长鸿";
+				TargetAttributes = {
+					956471892250B6C50061E1C1 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					9564719F2250B6C60061E1C1 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 956471892250B6C50061E1C1;
+					};
+					956471AA2250B6C60061E1C1 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 956471892250B6C50061E1C1;
+					};
+				};
+			};
+			buildConfigurationList = 956471852250B6C50061E1C1 /* Build configuration list for PBXProject "lookvideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 956471812250B6C50061E1C1;
+			productRefGroup = 9564718B2250B6C50061E1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956471892250B6C50061E1C1 /* lookvideo */,
+				9564719F2250B6C60061E1C1 /* lookvideoTests */,
+				956471AA2250B6C60061E1C1 /* lookvideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956471882250B6C50061E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956471942250B6C50061E1C1 /* Assets.xcassets in Resources */,
+				956471972250B6C50061E1C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564719E2250B6C60061E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956471A92250B6C60061E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956471862250B6C50061E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956471922250B6C50061E1C1 /* ViewController.m in Sources */,
+				9564719A2250B6C50061E1C1 /* main.m in Sources */,
+				9564718F2250B6C50061E1C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564719C2250B6C60061E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956471A52250B6C60061E1C1 /* lookvideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956471A72250B6C60061E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956471B02250B6C60061E1C1 /* lookvideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		956471A22250B6C60061E1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956471892250B6C50061E1C1 /* lookvideo */;
+			targetProxy = 956471A12250B6C60061E1C1 /* PBXContainerItemProxy */;
+		};
+		956471AD2250B6C60061E1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 956471892250B6C50061E1C1 /* lookvideo */;
+			targetProxy = 956471AC2250B6C60061E1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		956471952250B6C50061E1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956471962250B6C50061E1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956471B22250B6C60061E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		956471B32250B6C60061E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		956471B52250B6C60061E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lookvideo/lookvideo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		956471B62250B6C60061E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = lookvideo/lookvideo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		956471B82250B6C60061E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lookvideo.app/Contents/MacOS/lookvideo";
+			};
+			name = Debug;
+		};
+		956471B92250B6C60061E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lookvideo.app/Contents/MacOS/lookvideo";
+			};
+			name = Release;
+		};
+		956471BB2250B6C60061E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lookvideo;
+			};
+			name = Debug;
+		};
+		956471BC2250B6C60061E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = lookvideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.lookvideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = lookvideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956471852250B6C50061E1C1 /* Build configuration list for PBXProject "lookvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956471B22250B6C60061E1C1 /* Debug */,
+				956471B32250B6C60061E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956471B42250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956471B52250B6C60061E1C1 /* Debug */,
+				956471B62250B6C60061E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956471B72250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956471B82250B6C60061E1C1 /* Debug */,
+				956471B92250B6C60061E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956471BA2250B6C60061E1C1 /* Build configuration list for PBXNativeTarget "lookvideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956471BB2250B6C60061E1C1 /* Debug */,
+				956471BC2250B6C60061E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956471822250B6C50061E1C1 /* Project object */;
+}
